@@ -1,0 +1,117 @@
+<%- include("partials/header.ejs") %>
+<section id="banner">
+    <h1 class="banner-name">Figo Electronics</h1>
+    <p class="story">Welcome to India's first online Electronics Shop</p>
+</section>
+<section id="products">
+    <h2>Some of our Products</h2>
+    <div class="container">
+        <div class="item-box">
+            <div class="item-image-box">
+                <img class="item-image"
+                    src="https://cdn.sos.sk/productdata/12/53/e71da6f4/raspberry-pi-3-model-b-1.jpg">
+                <p class="item-title">Raspberry Pi 4 B+</p>
+            </div>
+        </div>
+        <div class="item-box">
+            <div class="item-image-box">
+                <img class="item-image"
+                    src="https://cdn.antratek.nl/media/product/5d4/nodemcu-v2-lua-based-esp8266-development-kit-113990105-42d.jpg">
+            </div>
+            <p class="item-title">NodeMCU/ESP8266+</p>
+        </div>
+        <div class="item-box">
+            <div class="item-image-box">
+                <img class="item-image"
+                    src="https://cdn.sparkfun.com/assets/9/1/e/4/8/515b4656ce395f8a38000000.png">
+            </div>
+            <p class="item-title">Arduino UNO</p>
+        </div>
+        <div class="item-box">
+            <div class="item-image-box">
+                <img class="item-image" src="https://media.rs-online.com/t_large/F7717667-01.jpg">
+            </div>
+                <p class="item-title">Arduino Micro</p>
+        </div>
+    </div>
+    <a href="/all" class="all-btn"><button class="btn btn-success">View all</button></a>
+</section>
+</body>
+
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        max-width: 100%;
+    }
+    .banner-name {
+        font-family: 'Oswald', sans-serif;
+        color: red;
+        line-height: 130px;
+        padding: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 65px;
+    }
+
+    #banner {
+        background-color: #50879F;
+        margin-top: 20px;
+    }
+
+    .story {
+        text-transform: uppercase;
+        color: red;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #products {
+        font-family: 'Arvo', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+
+    .image-descriptions {
+        text-transform: none;
+        font-size: 20px;
+    }
+
+    .product-items {
+        width: 10cm;
+        height: 7cm;
+        margin-left: 0px;
+    }
+
+    .item-image {
+        width: 250px;
+        height: 200px;
+        margin-top: 50px;
+        margin-top: 20px;
+    }
+
+    .item-title {
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+
+    .item-box {
+        border: black 1px solid;
+        margin: auto;
+        border-radius: 15px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+</style>
+<script>
+
+</script>
